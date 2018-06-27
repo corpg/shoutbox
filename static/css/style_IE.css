@@ -1,0 +1,147 @@
+/* Feuille CSS pour la shoutbox optimisée pour Internet Explorer  */
+/* Auteur: Etienne Glossi */
+/* Contact: etienne.glossi@iut-valence.fr */
+/* Pour aiv-iut.com */
+
+/* CSS global de la shoutbox */
+.shoutbox {
+	color: black;
+	background-image: url("design/background.png");
+	font-size: 12px;
+	font-family: Verdana;
+	text-align: left;
+	/*float: left;*/
+	width: 200px;
+	height: 400px;
+}
+
+
+/* CSS pour l'affichage des messages */
+.shoutbox #listMessages {
+	position: relative;
+	top: 35px;
+	left: 12px;
+	width: 176px;
+	height: 226px;
+	overflow: auto;
+	background-color: white;
+	font-family: Verdana;
+	border: 1px solid #4d4d4d;
+	padding: 2px;
+}
+
+.shoutbox #listMessages DIV {
+	float: left;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.shoutbox .date{
+	float: right;
+	margin-top: -13px;
+	color: #a6a69e;
+	font-size: 10px;
+}
+
+.shoutbox .message{
+	float: left;
+	text-indent: 20px;
+	width: 100%;
+}
+
+/* CSS pour l'affichage des pseudos */
+.shoutbox .homme{
+	color: blue;
+}
+
+.shoutbox .femme{
+	color: pink;
+}
+
+.shoutbox .inconnu{
+	color: green;
+}
+
+.shoutbox .femme, .shoutbox .homme, .shoutbox .inconnu{
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+
+/* CSS du formulaire */
+.shoutbox #addMessage {
+	position: relative;
+	top: 60px;
+	left: 13px;
+	width: 177px;
+	height: 107px;
+	text-align: left;
+}
+
+.shoutbox #pseudo {
+	position: relative;
+	top: 6px;
+	margin-bottom: 5px;
+	width: 118px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.shoutbox #message{
+	width: 174px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 3px;
+}
+
+.shoutbox #input_message{
+	position: relative;
+	top: 5px;
+}
+
+.shoutbox #input_sexe{
+	margin-top: -72px;
+	margin-left: 114px;
+}
+
+
+.shoutbox .boutton {
+	width: 47%;
+	margin-top: 12px;
+	font-family : Verdana;
+	margin-left: 3px;
+	margin-right: 4px;
+}
+
+.shoutbox .radio {
+	position: relative;
+	border: none;
+	background-color: transparent;
+	top: 2px;
+	margin-left: 2px;
+}
+
+
+.shoutbox input {
+	color: black;
+	background-color: #fafafa;
+	font-family: Arial;
+	border: 1px solid #4d4d4d;
+}
+
+.shoutbox .error {
+	color: #cd2e14;
+	font-family : Arial;
+	font-size: 14px;
+}
+
+.shoutbox a {
+	color: #cd2e14;
+	font-family : Arial;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.shoutbox a:hover {
+	color: black;
+}
